@@ -1,0 +1,11 @@
+.main-logo{
+    height: 60px;
+}
+
+
+
+.nav-text:hover{
+    background-color: rgb(236, 218, 218);
+    border-radius: 5px;
+
+}
