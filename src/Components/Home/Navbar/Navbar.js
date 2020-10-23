@@ -23,6 +23,10 @@ const Navbar = () => {
                             </li>
 
                             <li class="nav-item mr-3 active">
+                                <a class="nav-link nav-text" href="#">TUTORIAL </a>
+                            </li>
+
+                            <li class="nav-item mr-3 active">
                                 <a class="nav-link nav-text" href="#">SERVICE </a>
                             </li>
 

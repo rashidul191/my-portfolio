@@ -5,7 +5,8 @@
 }
 
 .img-size1{
-    height: 650px;
+    height: 600px;
+    border-radius: 400px;
 }
 .main-text1{
     margin-left: 200px;
