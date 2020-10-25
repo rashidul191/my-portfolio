@@ -1,0 +1,18 @@
+.service-area{
+    height: 600px;
+    width: 100%;
+}
+.service-img-size{
+    height: 60px;
+}
+.service-card{
+    height: 200px;
+    padding-top: 50px;
+   
+}
+
+.service-card:hover{
+        background-color: rgb(196, 132, 132);
+        color: white;
+        
+}
