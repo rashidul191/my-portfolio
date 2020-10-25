@@ -26,8 +26,8 @@ const Skill = () => {
                             <h5>PhotoShop</h5>
                         </div>
                         <div className="col-md-6 pt-3">
-                            <ProgressBar variant="danger" now={60} label={'60%'} />
-                            <h5>Video Editing</h5>
+                            <ProgressBar variant="danger" now={75} label={'75%'} />
+                            <h5>Web Design</h5>
                         </div>
                     </div>
 
