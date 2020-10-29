@@ -1,7 +1,6 @@
 import React from 'react';
 import './Resume.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faGitHub } from '@fortawesome/free-solid-svg-icons';
+
 
 const Resume = () => {
     return (

@@ -34,12 +34,14 @@ const Navbar = () => {
                                     <Link to="/service"> <a class="nav-link nav-text">SERVICE</a> </Link>
                                 </li>
 
+                               
+
                                 <li class="nav-item mr-3 active" >
-                                    <Link to="/resume"> <a class="nav-link nav-text">RESUME</a> </Link>
+                                    <Link to="/portfolio"> <a class="nav-link nav-text">PORTFOLIO</a> </Link>
                                 </li>
 
                                 <li class="nav-item mr-3 active" >
-                                    <Link to="/resume"> <a class="nav-link nav-text">PORTFOLIO</a> </Link>
+                                    <Link to="/resume"> <a class="nav-link nav-text">RESUME</a> </Link>
                                 </li>
 
                                 <li class="nav-item mr-3 active" >

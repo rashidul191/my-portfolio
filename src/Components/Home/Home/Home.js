@@ -1,4 +1,5 @@
 import React from 'react';
+import Portfolio from '../../Portfolio/Portfolio';
 import Header from '../Header/Header';
 import Service from '../Service/Service';
 import Skill from '../Skill/Skill';
@@ -13,15 +14,19 @@ const Home = () => {
                 <Header></Header>
             </div>
            
-            <div>
+            {/* <div>
                 <Tutorial></Tutorial>
+            </div> */}
+            <div>
+                <Skill></Skill>
             </div>
             <div>
                 <Service></Service>
             </div>
             <div>
-                <Skill></Skill>
+                <Portfolio></Portfolio>
             </div>
+            
             
 
 

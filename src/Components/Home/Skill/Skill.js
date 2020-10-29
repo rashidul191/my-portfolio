@@ -7,9 +7,9 @@ const Skill = () => {
     return (
         <section className="skill-area">
             <div className="container ">
-                <div className="text-center pt-5">
-                    <h5 className="pt-5">Skill</h5>
-                    <h1>Why Choose Me</h1>
+                <div className="text-center text-white pt-5">
+                    <h6 className="pt-5">Skill</h6>
+                    <h3>Why Choose Me</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, expedita voluptate. Repudiandae commodi quidem amet, natus consequuntur dolorem suscipit, tempora illum odit sapiente quo, distinctio laboriosam? Fuga omnis porro ut.</p>
                 </div>
                 <div>

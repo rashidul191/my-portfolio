@@ -11,9 +11,9 @@ const Service = () => {
     return (
         <section className="service-area">
             <div className="container ">
-                <div className="text-center mt-5 pt-5">
-                    <h4>Service</h4>
-                    <h1>What I Do</h1>
+                <div className="text-center pt-5">
+                    <h6>Service</h6>
+                    <h3>What I Do</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem esse, voluptates molestiae hic tenetur beatae recusandae. Quidem culpa eveniet deleniti, praesentium nulla distinctio est ipsam nesciunt repellat illo, eius eos?</p>
                 </div>
                 <div className="mt-5">
