@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from '../../Blog/Blog';
 import Portfolio from '../../Portfolio/Portfolio';
 import Header from '../Header/Header';
 import Service from '../Service/Service';
@@ -25,6 +26,10 @@ const Home = () => {
             </div>
             <div>
                 <Portfolio></Portfolio>
+            </div>
+
+            <div>
+                <Blog></Blog>
             </div>
             
             

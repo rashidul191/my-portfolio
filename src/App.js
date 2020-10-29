@@ -15,6 +15,7 @@ import NoMatch from './Components/NoMatch/NoMatch';
 import SkillDetails from './Components/SkillDetails/SkillDetails';
 import ContactMe from './Components/ContactMe/ContactMe';
 import PortfolioDetails from './Components/PortfolioDetails/PortfolioDetails';
+import BlogDetails from './Components/BlogDetails/BlogDetails';
 
 function App() {
   return (
@@ -48,6 +49,12 @@ function App() {
         <Route path="/portfolio">
           <Navbar></Navbar>
           <PortfolioDetails></PortfolioDetails>
+          <Footer></Footer>
+        </Route>
+
+        <Route path="/blog">
+          <Navbar></Navbar>
+          <BlogDetails></BlogDetails>
           <Footer></Footer>
         </Route>
 

@@ -4,9 +4,13 @@ import './Resume.css';
 
 const Resume = () => {
     return (
-        <section>
+        <section >
+            <div className="mt-5 pb-5 resume-hed ">
+                    <h3 className="text-center pt-4">MY RESUME</h3>
+                </div>
             <div className="container mt-5">
-                <h1>Md Rashidul Islam</h1>
+                
+                <h3>Md Rashidul Islam</h3>
                 <div className="row">
                     <div className="col-md-8">
                         <h5>Web developer</h5>
