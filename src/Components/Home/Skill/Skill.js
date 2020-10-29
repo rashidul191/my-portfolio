@@ -1,5 +1,6 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Skill.css';
 
 const Skill = () => {
@@ -31,6 +32,10 @@ const Skill = () => {
                         </div>
                     </div>
 
+                    <div className="text-center pt-5">
+                        <Link to="/skill"> <button  className="learn-more-btn" >Learn More</button> </Link>
+
+                    </div>
                 </div>
             </div>
         </section>

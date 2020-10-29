@@ -1,14 +1,13 @@
 .main-logo{
-    height: 60px;
+    height: 55px;
 }
 
 
-
-.nav-text:hover{
+/* .nav-text:hover{
     background-color: rgb(236, 218, 218);
     border-radius: 5px;
-
-}
+    
+} */
 .nav-style{
     box-shadow: 0 0 5px .1px gray;
 }

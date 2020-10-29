@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <section>
             <div className="header-style">
-                <div className="container  pt-5">
+                <div className="container pt-5">
                     <div className="row ">
                         <div className="col-md-6 ">
                             <img className="img-size1" src={RashidulImg} alt="" />
@@ -20,7 +20,7 @@ const Header = () => {
                             <div className="main-text1">
                                 <h4>Hello, I'm</h4>
                                 <h1>Md Rashidul Islam</h1>
-                                <h5>Web Programmer</h5>
+                                <h5>Web Developer</h5>
                                 <div className="row pt-3">
                                     <div className="col-md-5">
                                         <button className="header-btn-hire"> HIRE ME</button>

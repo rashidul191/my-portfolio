@@ -5,7 +5,7 @@ import RashidulImg from '../../../Images/rashiudl1.png';
 const About = () => {
     return (
         <section>
-            <div className="container">
+            <div className="container mt-5 pt-5 pb-5">
                 <div className="about-me">
                     <h6>Who am i</h6>
                     <h2>About Me</h2>

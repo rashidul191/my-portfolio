@@ -1,7 +1,15 @@
 .footer-area{
-    height: 450px;
+    height: 400px;
     width: 100%;
-    background-color: rgb(241, 210, 70);
+    background-color: rgb(250, 225, 2);
 }
 
+.footer-form{
+    margin-top: 100px;
+}
 
+.btn-danger-btn{
+    background-color: red;
+    color: white;
+
+}

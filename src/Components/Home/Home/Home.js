@@ -1,5 +1,4 @@
 import React from 'react';
-import About from '../About/About';
 import Header from '../Header/Header';
 import Service from '../Service/Service';
 import Skill from '../Skill/Skill';
@@ -13,9 +12,7 @@ const Home = () => {
             <div>
                 <Header></Header>
             </div>
-            <div>
-                <About></About>
-            </div>
+           
             <div>
                 <Tutorial></Tutorial>
             </div>

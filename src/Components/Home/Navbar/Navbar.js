@@ -39,6 +39,10 @@ const Navbar = () => {
                                 </li>
 
                                 <li class="nav-item mr-3 active" >
+                                    <Link to="/resume"> <a class="nav-link nav-text">PORTFOLIO</a> </Link>
+                                </li>
+
+                                <li class="nav-item mr-3 active" >
                                    <Link to="/blog"> <a class="nav-link nav-text">BLOG </a> </Link>
                                 </li>
 

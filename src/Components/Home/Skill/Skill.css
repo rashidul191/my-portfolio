@@ -3,3 +3,21 @@
     width: 100%;
     background-color: rgb(218, 218, 211);
 }
+
+.learn-more-btn{
+    background-color: rgb(17, 13, 228);
+    border: none;
+    color: white;
+    height: 50px;
+    width: 180px;
+    
+}
+
+.learn-more-btn:hover{
+    background-color: rgb(21, 109, 3);
+    border: none;
+    color: white;
+    height: 50px;
+    width: 180px;
+    
+}

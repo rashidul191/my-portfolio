@@ -1,15 +1,17 @@
 import React from 'react';
 import './Footer.css';
-import RashidulImg from '../../../Images/rashiudl1.png';
+import { useForm } from "react-hook-form";
 import facebookIcon from '../../../Images/Icons/facebook-icon.png';
 import twitterIcon from '../../../Images/Icons/twitter-icon.png';
 import linkedinIcon from '../../../Images/Icons/linkedin-icon.png';
 import githubIcon from '../../../Images/Icons/github-icon.png';
 
 const Footer = () => {
+    const { register, handleSubmit, watch, errors } = useForm();
+    const onSubmit = data => console.log(data);
     return (
         <section >
-            <div className="footer-area">
+            <div className="footer-area mt-5 ">
                 <div className="container pt-5">
                     <div className="row">
                         <div className="col-md-4">
@@ -19,34 +21,25 @@ const Footer = () => {
 
                         </div>
                         <div className="col-md-4">
-                            <form>
-                                <div class="form-group">
-                                    
-                                    <input type="email" class="form-control"  placeholder="name@example.com" />
-                                </div>
-                                <div>
-                                    <input type="text" class="form-control" placeholder="Enter Your Name"/>
-                                </div>
+                            <form className="footer-form" onSubmit={handleSubmit(onSubmit)}>
+                                <div className="row">
+                                    <div class="form-group mx-sm-3 mb-2">
 
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Example textarea</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-
-                                <div className="form-group">
-                                    <button type="submit">Submit</button>
+                                        <input type="email" class="form-control" name="email" ref={register({ required: true })} placeholder="email@gmail.com" />
+                                        {errors.email && <span className="error-text">This field is required</span>}
+                                    </div>
+                                    <div className=" ">
+                                        <button type="submit" class="btn btn-danger-btn mb-2">SUBSCRIBE ME</button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
                     </div>
 
-
-
-
-                    <div className="mt-5 pt-5 ">
+                    <div className="pt-5 ">
                         <div className="row ">
                             <div className="col-md-8">
-                                <p className=" copy-right"> Copyright {(new Date()).getFullYear()} Rashidul </p>
+                                <p className=" copy-right"> Copyright {(new Date()).getFullYear()} rashidul </p>
                             </div>
 
                             <div className="col-md-4">
