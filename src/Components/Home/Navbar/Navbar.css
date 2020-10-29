@@ -9,3 +9,6 @@
     border-radius: 5px;
 
 }
+.nav-style{
+    box-shadow: 0 0 5px .1px gray;
+}

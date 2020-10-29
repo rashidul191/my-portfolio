@@ -14,7 +14,7 @@ const Header = () => {
                 <div className="container  pt-5">
                     <div className="row ">
                         <div className="col-md-6 ">
-                           <img className="img-size1" src={RashidulImg} alt="" />
+                            <img className="img-size1" src={RashidulImg} alt="" />
                         </div>
                         <div className="col-md-6">
                             <div className="main-text1">
@@ -26,7 +26,7 @@ const Header = () => {
                                         <button className="header-btn-hire"> HIRE ME</button>
                                     </div>
                                     <div className="col-md-6">
-                                        <button className="header-btn-cv">DOWNLOAD CV</button>
+                                        <a href="https://drive.google.com/file/d/163zEw4V0DUeRFnh3gcs44hrB3nkc_FR9/view"> <button className="header-btn-cv">  DOWNLOAD CV </button> </a>
                                     </div>
                                 </div>
                                 <div className="row pt-5">
