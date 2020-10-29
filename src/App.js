@@ -14,6 +14,7 @@ import Footer from './Components/Home/Footer/Footer';
 import NoMatch from './Components/NoMatch/NoMatch';
 import SkillDetails from './Components/SkillDetails/SkillDetails';
 import ContactMe from './Components/ContactMe/ContactMe';
+import PortfolioDetails from './Components/PortfolioDetails/PortfolioDetails';
 
 function App() {
   return (
@@ -41,6 +42,12 @@ function App() {
         <Route path="/skill">
           <Navbar></Navbar>
           <SkillDetails></SkillDetails>
+          <Footer></Footer>
+        </Route>
+
+        <Route path="/portfolio">
+          <Navbar></Navbar>
+          <PortfolioDetails></PortfolioDetails>
           <Footer></Footer>
         </Route>
 

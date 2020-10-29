@@ -15,25 +15,29 @@ const Skill = () => {
                 <div>
                     <div className="row pt-5">
                         <div className="col-md-6 pt-3">
-                            <ProgressBar variant="danger" now={90} label={'90%'} />
-                            <h5>Web Programming</h5>
+                            <small> <h6 className="text-white">HTML</h6> </small>
+                            <ProgressBar variant="danger" now={90} label={'95%'} />
+
                         </div>
                         <div className="col-md-6 pt-3">
+                            <small> <h6 className="text-white">CSS</h6> </small>
                             <ProgressBar variant="danger" now={95} label={'95%'} />
-                            <h5>Video Editing</h5>
+
                         </div>
                         <div className="col-md-6 pt-3">
-                            <ProgressBar variant="danger" now={80} label={'80%'} />
-                            <h5>PhotoShop</h5>
+                            <small> <h6 className="text-white">JavaScript</h6> </small>
+                            <ProgressBar variant="danger" now={85} label={'85%'} />
+
                         </div>
                         <div className="col-md-6 pt-3">
-                            <ProgressBar variant="danger" now={75} label={'75%'} />
-                            <h5>Web Design</h5>
+                            <small> <h6 className="text-white">React</h6> </small>
+                            <ProgressBar variant="danger" now={85} label={'85%'} />
+
                         </div>
                     </div>
 
                     <div className="text-center pt-5">
-                        <Link to="/skill"> <button  className="learn-more-btn" >Learn More</button> </Link>
+                        <Link to="/skill"> <button className="learn-more-btn" >Learn More</button> </Link>
 
                     </div>
                 </div>
