@@ -16,6 +16,7 @@ import SkillDetails from './Components/SkillDetails/SkillDetails';
 import ContactMe from './Components/ContactMe/ContactMe';
 import PortfolioDetails from './Components/PortfolioDetails/PortfolioDetails';
 import BlogDetails from './Components/BlogDetails/BlogDetails';
+import ServiceDetails from './Components/Home/Service/ServiceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -46,6 +47,13 @@ function App() {
           <Footer></Footer>
         </Route>
 
+        
+        <Route path="/service">
+          <Navbar></Navbar>
+         <ServiceDetails></ServiceDetails>
+          <Footer></Footer>
+        </Route>
+
         <Route path="/portfolio">
           <Navbar></Navbar>
           <PortfolioDetails></PortfolioDetails>
@@ -67,6 +75,13 @@ function App() {
         <Route path="/contact-me">
           <Navbar></Navbar>
           <ContactMe></ContactMe>
+          <Footer></Footer>
+        </Route>
+
+        
+        <Route path="/resume">
+          <Navbar></Navbar>
+          <Resume></Resume>
           <Footer></Footer>
         </Route>
 

@@ -1,15 +1,19 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
+import './SkillDetails.css';
 
 const SkillDetails = () => {
     return (
         <section>
-            <div className="container">
-                <div className="text-center pt-5">
-                    < h6 className="pt-5">Skill</ h6>
-                    <h1>Why Choose Me</h1>
-
+            <div className=" skill-details-header mt-5">
+                <div className="pt-4">
+                    
+                    <h3>My Skill</h3>
                 </div>
+
+            </div>
+            <div className="container">
+
 
                 <div>
                     <div className=" pt-5">
@@ -64,14 +68,14 @@ const SkillDetails = () => {
                                         <small><h6> •	 Oracle</h6></small>
                                         <ProgressBar variant="danger" now={90} label={'90%'} />
                                     </div>
-                                    <div  className="col-md-6 pt-5">                      
-                                            <li> <h5> •	 Familiar: </h5></li>
-                                            <small><h6> •	 Java</h6></small>
-                                            <ProgressBar variant="danger" now={95} label={'95%'} />
-                                            <small><h6> C/C++</h6></small>
-                                            <ProgressBar variant="danger" now={90} label={'90%'} />
-                                            <small><h6> •	 Heroku</h6></small>
-                                            <ProgressBar variant="danger" now={90} label={'90%'} />                                        
+                                    <div className="col-md-6 pt-5">
+                                        <li> <h5> •	 Familiar: </h5></li>
+                                        <small><h6> •	 Java</h6></small>
+                                        <ProgressBar variant="danger" now={95} label={'95%'} />
+                                        <small><h6> C/C++</h6></small>
+                                        <ProgressBar variant="danger" now={90} label={'90%'} />
+                                        <small><h6> •	 Heroku</h6></small>
+                                        <ProgressBar variant="danger" now={90} label={'90%'} />
                                     </div>
                                 </div>
                             </ul>

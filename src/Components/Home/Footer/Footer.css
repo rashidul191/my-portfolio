@@ -1,7 +1,7 @@
 .footer-area{
     height: 400px;
     width: 100%;
-    background-color: rgb(250, 225, 2);
+    background-color: rgb(247, 226, 41);
 }
 
 .footer-form{
@@ -12,4 +12,8 @@
     background-color: red;
     color: white;
 
+}
+
+.copy-text-color{
+    
 }

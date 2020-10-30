@@ -8,13 +8,13 @@ import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
-        <section className="container-project pt-5">
+        <section className="container-project pt-2">
             <div className="container pb-5">
-                <div className="text-center text-white ">
+                <div className="text-center text-white mt-5 ">
                     <h6 className=""> MY PORTFOLIO </h6>
                     <h3> CHECK OUT MY RECENT PROJECT </h3>
                 </div>
-                <div class="card-deck pt-3">
+                <div class="card-deck pt-5">
                     <div class="card">
                       <a href="https://creative-agency-rashidul.netlify.app/">  <img class="card-img-top" src={creativeAgency} alt="Card image cap" /> </a>
 

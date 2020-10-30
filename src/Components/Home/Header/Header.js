@@ -30,17 +30,18 @@ const Header = () => {
                                     </div>
                                 </div>
                                 <div className="row pt-5">
-                                    <div className="col-md-2">
-                                        <a href="https://www.facebook.com/rashidul191r"> <img className="social-icons" src={facebookIcon} alt="" /></a>
-                                    </div>
-                                    <div className="col-md-2">
-                                        <a href="https://twitter.com/Rashidul191"><img className="social-icons" src={twitterIcon} alt="" /></a>
-                                    </div>
+                                   
                                     <div className="col-md-2">
                                         <a href="https://www.linkedin.com/in/rashidul191/"><img className="social-icons" src={linkedinIcon} alt="" /></a>
                                     </div>
                                     <div className="col-md-2">
                                         <a href="https://github.com/rashidul191/"><img className="social-icons" src={githubIcon} alt="" /></a>
+                                    </div>
+                                    <div className="col-md-2">
+                                        <a href="https://www.facebook.com/rashidul191r"> <img className="social-icons" src={facebookIcon} alt="" /></a>
+                                    </div>
+                                    <div className="col-md-2">
+                                        <a href="https://twitter.com/Rashidul191"><img className="social-icons" src={twitterIcon} alt="" /></a>
                                     </div>
                                 </div>
                             </div>

@@ -15,8 +15,8 @@ const Blog = () => {
                 </div>
 
                 <div className="text-center pt-5">
-               <Link to="/blog"> <button  className="learn-more-btn" >Learn More</button> </Link>
-               </div>
+                    <Link to="/blog"> <button className="learn-more-btn" >Learn More</button> </Link>
+                </div>
             </div>
         </section>
     );

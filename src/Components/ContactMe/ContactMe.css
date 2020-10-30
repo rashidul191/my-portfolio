@@ -1,3 +1,10 @@
+.contact-me-header{
+    height: 80px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
 .error-text{
     color: red;
 }

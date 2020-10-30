@@ -6,7 +6,7 @@ const Resume = () => {
     return (
         <section >
             <div className="mt-5 pb-5 resume-hed ">
-                    <h3 className="text-center pt-4">MY RESUME</h3>
+                    <h3 className=" pt-4">MY RESUME</h3>
                 </div>
             <div className="container mt-5">
                 
