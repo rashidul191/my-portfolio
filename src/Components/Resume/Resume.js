@@ -6,10 +6,14 @@ const Resume = () => {
     return (
         <section >
             <div className="mt-5 pb-5 resume-hed ">
+                <div>
                     <h3 className=" pt-4">MY RESUME</h3>
+                    <a href="https://drive.google.com/u/0/uc?id=163zEw4V0DUeRFnh3gcs44hrB3nkc_FR9&export=download"> <button className="header-btn-resume">  DOWNLOAD CV </button> </a>
+
                 </div>
+            </div>
             <div className="container mt-5">
-                
+
                 <h3>Md Rashidul Islam</h3>
                 <div className="row">
                     <div className="col-md-8">
@@ -122,7 +126,7 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className=" pt-3 pb-3">
-                    <a href="https://drive.google.com/file/d/163zEw4V0DUeRFnh3gcs44hrB3nkc_FR9/view"> <button className="header-btn-cv">  DOWNLOAD CV </button> </a>
+                    <a href="https://drive.google.com/u/0/uc?id=163zEw4V0DUeRFnh3gcs44hrB3nkc_FR9&export=download"> <button className="header-btn-cv">  DOWNLOAD CV </button> </a>
                 </div>
             </div>
         </section>

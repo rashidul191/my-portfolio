@@ -1,11 +1,10 @@
-.footer-area{
-    height: 400px;
+.footer-bot{
+    height: 100%;
     width: 100%;
-    background-color: rgb(247, 226, 41);
-}
-
-.footer-form{
-    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    
 }
 
 .btn-danger-btn{
@@ -16,4 +15,8 @@
 
 .copy-text-color{
     
+    color: white;
+}
+.test-center{
+    margin: 0 auto;
 }

@@ -11,40 +11,16 @@ const Footer = () => {
     const onSubmit = data => console.log(data);
     return (
         <section >
-            <div className="footer-area mt-5 ">
-                <div className="container pt-5">
-                    <div className="row">
-                        <div className="col-md-4">
 
-                        </div>
-                        <div className="col-md-4">
-
-                        </div>
-                        <div className="col-md-4">
-                            <form className="footer-form" onSubmit={handleSubmit(onSubmit)}>
-                                <div className="row">
-                                    <div class="form-group mx-sm-3 mb-2">
-
-                                        <input type="email" class="form-control" name="email" ref={register({ required: true })} placeholder="email@gmail.com" />
-                                        {errors.email && <span className="error-text">This field is required</span>}
-                                    </div>
-                                    <div className=" ">
-                                        <button type="submit" class="btn btn-danger-btn mb-2">SUBSCRIBE ME</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div className="pt-5 ">
-                        <div className="row ">
-                            <div className="col-md-8">
-                                <p className=" copy-right"> <small className="copy-text-color"> Copyright © {(new Date()).getFullYear()} rashidul </small> </p>
-                            </div>
-
+            <div className="footer-bot mt-5">
+                <div className="container ">
+                    <div className="test-center">
+                        <div className="row">
                             <div className="col-md-4">
-                                <div className="row ">
-                                   
+                                <div className="row">
+                                    <div className="col-md-4 text-white">
+                                        <h6>Follow Me</h6>
+                                    </div>
                                     <div className="col-md-2">
                                         <a href="https://www.linkedin.com/in/rashidul191/"><img className="social-icons" src={linkedinIcon} alt="" /></a>
                                     </div>
@@ -57,14 +33,34 @@ const Footer = () => {
                                     <div className="col-md-2">
                                         <a href="https://twitter.com/Rashidul191"><img className="social-icons" src={twitterIcon} alt="" /></a>
                                     </div>
-
                                 </div>
                             </div>
+                            
+                            <div className="col-md-8">
+                                <form className="footer-form" onSubmit={handleSubmit(onSubmit)}>
+                                    <div className="row">
+                                        <div class="form-group col-md-8 mb-2">
+                                            <input type="email" class="form-control" name="email" ref={register({ required: true })} placeholder="email@gmail.com" />
+                                            {errors.email && <span className="error-text">This field is required</span>}
+                                        </div>
+                                        <div className="  col-md-4">
+                                            <button type="submit" class="btn btn-danger-btn mb-2">SUBSCRIBE ME</button>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
                         </div>
+
+
+
+                        <div className="">
+                            <p className=" copy-right"> <small className="copy-text-color"> Copyright © {(new Date()).getFullYear()} rashidul </small> </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
-
         </section>
     );
 };

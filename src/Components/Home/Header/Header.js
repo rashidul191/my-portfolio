@@ -26,7 +26,7 @@ const Header = () => {
                                         <button className="header-btn-hire"> HIRE ME</button>
                                     </div>
                                     <div className="col-md-6">
-                                        <a href="https://drive.google.com/file/d/163zEw4V0DUeRFnh3gcs44hrB3nkc_FR9/view"> <button className="header-btn-cv">  DOWNLOAD CV </button> </a>
+                                        <a href="https://drive.google.com/u/0/uc?id=163zEw4V0DUeRFnh3gcs44hrB3nkc_FR9&export=download"> <button className="header-btn-cv">  DOWNLOAD CV </button> </a>
                                     </div>
                                 </div>
                                 <div className="row pt-5">
