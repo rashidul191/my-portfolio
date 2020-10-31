@@ -25,3 +25,18 @@
     width: 180px;
     border-radius: 40px;
 }
+
+.address-me{
+    margin-top: 30px;
+    margin-left: 100px;   
+    height: 350px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: teal;
+    text-align: center;
+    color: white;
+}
+
+.address-box{
+    margin-top: 35px;
+}

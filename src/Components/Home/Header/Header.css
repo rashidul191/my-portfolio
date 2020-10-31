@@ -60,7 +60,7 @@
     width: 0ch;
     overflow: hidden;
     white-space: nowrap;
-    animation: text 6s steps(15) infinite alternate;
+    animation: text 6s steps(14) infinite alternate;
     border-right: 3px solid black;
 
 }
@@ -69,6 +69,6 @@
         width: 0ch;
     }
     50%{
-        width: 15ch;
+        width: 14ch;
     }
 }
