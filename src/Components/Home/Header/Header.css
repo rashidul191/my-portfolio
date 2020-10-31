@@ -1,17 +1,17 @@
-.header-style{
-    height: 800px;
+/* .header-style{
+    
     width: 100%;
     
-}
+} */
 
 .img-size1{
-    height: 65%;
-    border-radius: 400px;
+    height: 52%;
+    border-radius: 50%;
 }
-.main-text1{
+/* .main-text1{
    
-    margin-top: 250px;
-}
+    margin-top: 100px;
+} */
 .header-btn-hire{
     background-color: rgb(247, 96, 96);
     border: none;
@@ -53,6 +53,22 @@
     
 }
 .social-icons{
-    height: 30px;
-    border-radius: 60px;
+    height: 40px;
+    border-radius: 50%;
+}
+.text-animation{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(15) infinite alternate;
+    border-right: 3px solid black;
+
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 15ch;
+    }
 }

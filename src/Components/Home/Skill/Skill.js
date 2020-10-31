@@ -6,15 +6,15 @@ import './Skill.css';
 const Skill = () => {
     return (
         <section className="skill-area">
-            <div className="container ">
-                <div className="text-center text-white pt-5">
+            <div className="container  ">
+                <div className="text-center text-white ">
                     <h6 className="pt-5">Skill</h6>
                     <h3>Why Choose Me</h3>
                    
                 </div>
                 <div>
-                    <div className="row pt-5">
-                        <div className="col-md-6 pt-3">
+                    <div className="row ">
+                        <div className="col-md-6 ">
                             <small> <h6 className="text-white">JavaScript</h6> </small>
                             <ProgressBar variant="danger" now={90} label={'95%'} />
 
@@ -36,7 +36,7 @@ const Skill = () => {
                         </div>
                     </div>
 
-                    <div className="text-center pt-5">
+                    <div className="text-center pb-5 pt-5">
                         <Link to="/skill"> <button className="learn-more-btn" >Learn More</button> </Link>
 
                     </div>
