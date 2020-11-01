@@ -35,80 +35,82 @@ const SkillDetails = () => {
                         <h3>DEVELOPER SKILLS</h3>
                         <div className="pb-5 pt-2">
                             <div className="skill-header-part">
-                                
+
                                 <div className="row">
                                     <div className="col-md-4  img-size ">
-                                        <img className="skill-icon-size mt-2" src={JavaScript} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={JavaScript} alt="" />
                                         <h6>JavaScript</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={reactIcon} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={reactIcon} alt="" />
                                         <h6>React</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={Node} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={Node} alt="" />
                                         <h6>Node.js</h6>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={Html} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={Html} alt="" />
                                         <h6>HTML</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={Css} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={Css} alt="" />
                                         <h6>CSS</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={Bootstrap} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={Bootstrap} alt="" />
                                         <h6>Bootstrap</h6>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={express} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={express} alt="" />
                                         <h6>Express.js</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={MongoDB} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={MongoDB} alt="" />
                                         <h6>MongoDB</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={HeroKu} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={HeroKu} alt="" />
                                         <h6>HeroKu</h6>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={npm} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={npm} alt="" />
                                         <h6>npm</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={vsCode} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={vsCode} alt="" />
                                         <h6>VS Code</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={firebaseIcon} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={firebaseIcon} alt="" />
                                         <h6>Firebase</h6>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={reactBootstrap} alt=""/>
+                                        <img className="skill-icon-size mt-2" src={reactBootstrap} alt="" />
                                         <h6>React Bootstrap</h6>
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={msExcel} alt=""/>
-                                        <h6>MS Excel</h6>
+                                    <img className="skill-icon-size mt-2" src={materialUi} alt="" />
+                                    <h6>Material-Ui</h6>
+                                       
                                     </div>
                                     <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={msPowerPoint} alt=""/>
-                                        <h6>MS PowerPoint</h6>
+                                    <img className="skill-icon-size mt-2" src={Java} alt="" />
+                                    <h6>Java</h6>
+                                       
                                     </div>
                                 </div>
 
                             </div>
-                          
+
                         </div>
                     </div>
 
@@ -117,19 +119,19 @@ const SkillDetails = () => {
                         <div>
                             <h3>OTHER EXPERIENCE</h3>
                             <div className="row">
-                                    <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={msWord} alt=""/>
-                                        <h6>MS Word</h6>
-                                    </div>
-                                    <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={materialUi} alt=""/>
-                                        <h6>Material-Ui</h6>
-                                    </div>
-                                    <div className="col-md-4  img-size">
-                                    <img className="skill-icon-size mt-2" src={Java} alt=""/>
-                                        <h6>Java</h6>
-                                    </div>
+                                <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={msWord} alt="" />
+                                    <h6>MS Word</h6>
                                 </div>
+                                <div className="col-md-4  img-size">
+                                <img className="skill-icon-size mt-2" src={msExcel} alt="" />
+                                        <h6>MS Excel</h6>
+                                </div>
+                                <div className="col-md-4  img-size">
+                                <img className="skill-icon-size mt-2" src={msPowerPoint} alt="" />
+                                        <h6>MS PowerPoint</h6>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

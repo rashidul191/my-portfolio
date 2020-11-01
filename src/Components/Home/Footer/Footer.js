@@ -7,8 +7,13 @@ import linkedinIcon from '../../../Images/Icons/linkedin-icon.png';
 import githubIcon from '../../../Images/Icons/github-icon.png';
 
 const Footer = () => {
-    const { register, handleSubmit, watch, errors } = useForm();
-    const onSubmit = data => console.log(data);
+    const { register, handleSubmit, errors } = useForm();
+    const onSubmit = data =>{
+        console.log(data);
+        alert("SUBSCRIBE DONE");
+       
+        
+    }   
     return (
         <section >
 
@@ -44,7 +49,8 @@ const Footer = () => {
                                             {errors.email && <span className="error-text">This field is required</span>}
                                         </div>
                                         <div className="  col-md-4">
-                                            <button type="submit" class="btn btn-danger-btn mb-2">SUBSCRIBE ME</button>
+                                            <input class="btn btn-danger-btn mb-2"  type="submit" value="SUBSCRIBE ME"/>
+                                            
                                         </div>
                                     </div>
 
