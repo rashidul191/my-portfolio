@@ -1,84 +1,114 @@
 import React from 'react';
-import { ProgressBar } from 'react-bootstrap';
 import './SkillDetails.css';
+import JavaScript from '../../Images/Icons/javascript.png';
+import reactIcon from '../../Images/Icons/React-icon.png';
+import Node from '../../Images/Icons/nodejs.png';
+import Html from '../../Images/Icons/html5-icon.png';
+import Css from '../../Images/Icons/css-icon.png';
+import Bootstrap from '../../Images/Icons/Bootstrap.png';
+import express from '../../Images/Icons/Expressjs-icon.png';
+import MongoDB from '../../Images/Icons/mongodb-icon.png';
+import HeroKu from '../../Images/Icons/heroku-icon.png';
+import npm from '../../Images/Icons/npm-icon.png';
+import vsCode from '../../Images/Icons/Visual_Studio-icon.png';
+import firebaseIcon from '../../Images/Icons/firebase-icon.png';
+import reactBootstrap from '../../Images/Icons/react-bootstrap-tutorial.png';
+import materialUi from '../../Images/Icons/material-ui.png';
+import Java from '../../Images/Icons/java-icon.png';
+import cProgramming from '../../Images/Icons/c-programming-icon.png';
+import msWord from '../../Images/Icons/microsoft-word-.png';
+import msExcel from '../../Images/Icons/microsoft-excel.png';
+import msPowerPoint from '../../Images/Icons/ms-powerpoint.png';
+
 
 const SkillDetails = () => {
     return (
         <section>
             <div className=" skill-details-header mt-5">
                 <div className="pt-4">
-                    
                     <h3>My Skill</h3>
                 </div>
-
             </div>
             <div className="container">
-
-
                 <div>
                     <div className=" pt-5">
                         <h3>DEVELOPER SKILLS</h3>
-
                         <div className="pb-5 pt-2">
-                            <ul>
+                            <div className="skill-header-part">
+                                
                                 <div className="row">
-                                    <div className="col-md-6 pt-3">
-                                        <li> <h5> Expert: </h5></li>
-                                        <small><h6> •	 JavaScript</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 React</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> •	 React Native</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 Node.js (Back-End)</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> •	 React Router</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 ES6 </h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> •	 Firebase Authentication</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> •	 HeroKu</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-
+                                    <div className="col-md-4  img-size ">
+                                        <img className="skill-icon-size mt-2" src={JavaScript} alt=""/>
+                                        <h6>JavaScript</h6>
                                     </div>
-
-                                    <div className="col-md-6 pt-3">
-                                        <li > <h5> Frameworks: </h5></li>
-                                        <small><h6> •	 Bootstrap</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 Bootstrap CDN</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> •	 React Bootstrap</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 Material-UI</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> •	 Express.js</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 Bootstrap CDN</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={reactIcon} alt=""/>
+                                        <h6>React</h6>
                                     </div>
-
-                                    <div className="col-md-6 pt-5">
-                                        <li className=""> <h5> Databases: </h5></li>
-                                        <small><h6> •	 MongoDB</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> •	 Firebase</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 Oracle</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                    </div>
-                                    <div className="col-md-6 pt-5">
-                                        <li> <h5> •	 Familiar: </h5></li>
-                                        <small><h6> •	 Java</h6></small>
-                                        <ProgressBar variant="danger" now={95} label={'95%'} />
-                                        <small><h6> C/C++</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
-                                        <small><h6> •	 Heroku</h6></small>
-                                        <ProgressBar variant="danger" now={90} label={'90%'} />
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={Node} alt=""/>
+                                        <h6>Node.js</h6>
                                     </div>
                                 </div>
-                            </ul>
+                                <div className="row">
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={Html} alt=""/>
+                                        <h6>HTML</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={Css} alt=""/>
+                                        <h6>CSS</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={Bootstrap} alt=""/>
+                                        <h6>Bootstrap</h6>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={express} alt=""/>
+                                        <h6>Express.js</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={MongoDB} alt=""/>
+                                        <h6>MongoDB</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={HeroKu} alt=""/>
+                                        <h6>HeroKu</h6>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={npm} alt=""/>
+                                        <h6>npm</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={vsCode} alt=""/>
+                                        <h6>VS Code</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={firebaseIcon} alt=""/>
+                                        <h6>Firebase</h6>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={reactBootstrap} alt=""/>
+                                        <h6>React Bootstrap</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={msExcel} alt=""/>
+                                        <h6>MS Excel</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={msPowerPoint} alt=""/>
+                                        <h6>MS PowerPoint</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+                          
                         </div>
                     </div>
 
@@ -86,14 +116,20 @@ const SkillDetails = () => {
 
                         <div>
                             <h3>OTHER EXPERIENCE</h3>
-                            <div className="pt-3">
-                                <small><h6> •	MS Office</h6></small>
-                                <ProgressBar variant="danger" now={95} label={'95%'} />
-                                <small><h6> •	MS Power Point</h6></small>
-                                <ProgressBar variant="danger" now={90} label={'90%'} />
-                                <small><h6> •	MS Excel</h6></small>
-                                <ProgressBar variant="danger" now={90} label={'90%'} />
-                            </div>
+                            <div className="row">
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={msWord} alt=""/>
+                                        <h6>MS Word</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={materialUi} alt=""/>
+                                        <h6>Material-Ui</h6>
+                                    </div>
+                                    <div className="col-md-4  img-size">
+                                    <img className="skill-icon-size mt-2" src={Java} alt=""/>
+                                        <h6>Java</h6>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>

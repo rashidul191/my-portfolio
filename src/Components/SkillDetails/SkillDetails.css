@@ -4,3 +4,17 @@
     background-color: teal;
     color: white;
 }
+
+.skill-header-part{
+    height: 100%;
+    width: 100%;
+ 
+    /* color: teal; */
+}
+.skill-icon-size{
+    height: 60px;
+}
+.img-size{
+    text-align: center;
+
+}
