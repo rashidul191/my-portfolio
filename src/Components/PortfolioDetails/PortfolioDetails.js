@@ -14,11 +14,10 @@ const PortfolioDetails = () => {
             
                 
             <div className="container pb-5">
-                <div className="text-center text-white mt-5 ">
-                    <h6 className=""> MY PORTFOLIO </h6>
+            <div className="text-center mt-5 ">
                     <h3> CHECK OUT MY RECENT PROJECT </h3>
                 </div>
-                <div className="">
+                <div className="mt-5">
                     <div class="card-deck">
                         <div class="card">
                             <a href="https://creative-agency-rashidul.netlify.app/">  <img class="card-img-top" src={creativeAgency} alt="Card image cap" /> </a>

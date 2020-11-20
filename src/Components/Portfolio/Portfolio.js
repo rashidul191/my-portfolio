@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     return (
-        <section className="container-project pt-2">
+        <section className="container-project mt-5 pt-2">
             <div className="container pb-5">
                 <div className="text-center text-white mt-5 ">
                     <h6 className=""> MY PORTFOLIO </h6>

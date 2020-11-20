@@ -8,16 +8,17 @@ import githubIcon from '../../../Images/Icons/github-icon.png';
 
 
 const Header = () => {
+    // document.title ="home";
     return (
         <section>
             <div className="header-style">
                 <div className="container">
-                    <div className="row  mt-5">
+                    <div className="row  header-part">
                         <div className="col-md-6 ">
-                            <img className="img-size1" src={RashidulImg} alt="" />
+                            <img className="img-size1 img-responsive" src={RashidulImg} alt="" />
                         </div>
-                        <div className="col-md-6 pt-5">
-                            <div className="main-text1">
+                        <div className="col-md-6">
+                            <div className="">
                                 <h4>Hello, I'm</h4>
                                 <h1>Md Rashidul Islam</h1>
                                 <h4 className="text-animation" > Web Developer </h4>
