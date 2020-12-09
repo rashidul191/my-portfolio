@@ -1,6 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.padding-w{
+    padding: 0px 0px;
 }
 .header-style{
     height: auto;

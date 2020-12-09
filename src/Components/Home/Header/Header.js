@@ -11,13 +11,13 @@ const Header = () => {
     // document.title ="home";
     return (
         <section>
-            <div className="header-style">
-                <div className="container">
+            <div className="header-style ">
+                <div className="container float-none">
                     <div className="row  header-part">
-                        <div className="col-md-6 ">
+                        <div className="col-md-6 padding-w">
                             <img className="img-size1 img-responsive" src={RashidulImg} alt="" />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 padding-w">
                             <div className="">
                                 <h4>Hello, I'm</h4>
                                 <h1>Md Rashidul Islam</h1>
