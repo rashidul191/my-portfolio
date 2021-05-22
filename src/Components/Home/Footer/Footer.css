@@ -1,22 +1,14 @@
-.footer-bot{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    text-align: center;
-    padding-top: 10px;
-    
+.footer-bot {
+  background-color: black;
+  padding-top: 10px;
 }
 
-.btn-danger-btn{
-    background-color: red;
-    color: white;
-
+.btn-danger-btn {
+  background-color: red;
+  color: white;
 }
 
-.copy-text-color{
-    
-    color: white;
-}
-.test-center{
-    margin: 0 auto;
+
+.test-center {
+  margin: 0 auto;
 }

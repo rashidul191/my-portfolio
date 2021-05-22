@@ -3,24 +3,14 @@
     padding: 0px;
 }
 
-.padding-w{
-    padding: 0px 0px;
-}
-.header-style{
-    height: auto;
-    width: 100%;
-    
-}
-.header-part{
-    margin-top: 50px;
-}
 .img-size1{
-    height: 50%;
-    border-radius: 50%;
+   height: 320px;
+   border-radius: 50%;
+   
 }
 
 .header-btn-hire{
-    background-color: rgb(247, 96, 96);
+    background-color: green;
     border: none;
     color: white;
     height: 50px;
@@ -29,8 +19,7 @@
     margin: 10px;
 }
 
-.header-btn-hire:hover{
-    
+.header-btn-hire:hover{    
     background-color: rgb(128, 123, 123);
     border: none;
     color: white;
@@ -52,7 +41,7 @@
 }
 
 .header-btn-cv:hover{
-    background-color: rgb(247, 96, 96);
+    background-color: green;
     border: none;
     color: white;
     height: 50px;
@@ -61,9 +50,8 @@
     margin: 10px;   
     
 }
-.social-icons{
-    height: 30px;
-    width: auto;
+.social-icons{  
+    width: 30px;
     margin: 7px;
     border-radius: 50%;
 }

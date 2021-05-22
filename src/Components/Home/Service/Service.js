@@ -14,39 +14,29 @@ const Service = () => {
             <div className="container ">
                 <div className="text-center pt-5">
                     <h6>Service</h6>
-                    <h3>What I Do</h3>
+                    <h3 className="text-success">What I Do</h3>
                 </div>
-                <div className="mt-5">
-                    <CardDeck>
-                        <Card >
-                            <Card.Body className="text-center service-card">
-                                <img className="service-img-size" src={webDevelopment} alt="" />
-                                <Card.Title className="mt-3">Web Development</Card.Title>
-                            </Card.Body>
-                        </Card>
 
-                        <Card>
-                            <Card.Body className="text-center service-card">
-                                <img className="service-img-size" src={videoEdit} alt="" />
-                                <Card.Title className="mt-3">Video Editing</Card.Title>
-                            </Card.Body>
-                        </Card>
-
-                        <Card>
-                            <Card.Body className="text-center service-card">
-                                <img className="service-img-size" src={photoShop} alt="" />
-                                <Card.Title className="mt-3">PhotoShop</Card.Title>
-                            </Card.Body>
-                        </Card>
-
-                        <Card>
-                            <Card.Body className="text-center service-card">
-                                <img className="service-img-size" src={productReview} alt="" />
-                                <Card.Title className="mt-3">Product Review</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </CardDeck>
-                </div>
+                <div className="service-body pt-3">
+                    <div className="row text-center">
+                        <div className="col-xm-6  col-md-3">
+                        <img className=" img-fluid img-thumbnail" src={webDevelopment} alt="" />
+                                <h5 className="mt-3">Web Development</h5>
+                        </div>
+                        <div className="col-xm-6  col-md-3">
+                        <img className="img-thumbnail img-fluid" src={videoEdit} alt="" />
+                                <h5 className="mt-3">Video Editing</h5>
+                        </div>
+                        <div className="col-xm-6  col-md-3">
+                        <img className="img-thumbnail img-fluid" src={photoShop} alt="" />
+                                <h5 className="mt-3">PhotoShop</h5>
+                        </div>
+                        <div className="col-xm-6  col-md-3">
+                        <img className="img-fluid img-thumbnail" src={productReview} alt="" />
+                                <h5 className="mt-3">Product Review</h5>
+                        </div>
+                    </div>
+                </div>                
                 <div className="text-center pt-5">
                     <Link to="/blog"> <button className="learn-more-btn" >Learn More</button> </Link>
                 </div>

@@ -1,8 +1,6 @@
-.contact-me-header{
-    height: 80px;
+.contact-me-header{  
     background-color: teal;
-    color: white;
-    text-align: center;
+    color: white;   
 }
 
 .error-text{
@@ -10,33 +8,24 @@
 }
 
 .send-btn{
-    background-color: rgb(221, 66, 66);
-    border: none;
-    color: white;
-    height: 50px;
-    width: 180px;
-    border-radius: 40px;
+    background-color: rgb(221, 66, 66);  
+    color: white;  
+    
 }
 .send-btn:hover{
-    background-color: green;
-    border: none;
-    color: white;
-    height: 50px;
-    width: 180px;
-    border-radius: 40px;
+    background-color: green;   
+    color: white;   
+    
 }
 
-.address-me{
-    margin-top: 30px;
-    margin-left: 100px;   
-    height: 350px;
-    width: 100%;
+.address-me{      
     border: 1px solid black;
-    background-color: teal;
-    text-align: center;
+    background-color: teal;   
     color: white;
 }
 
-.address-box{
-    margin-top: 35px;
+.address-me:hover{      
+    border: 1px solid black;
+    background-color: white;
+    color: teal;
 }

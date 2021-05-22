@@ -1,12 +1,9 @@
 .about-me{
-    
-    text-align: center;
-    height: 80px;
     background-color: teal;
     color: white;
 }
 .about-me-img{
-    height: 45%;
-    border-radius: 200px;
+   height: 350px;
+    border-radius: 50%;
     box-shadow: 10px 10px 10px ;
 }

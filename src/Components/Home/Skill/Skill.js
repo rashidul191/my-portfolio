@@ -6,11 +6,10 @@ import './Skill.css';
 const Skill = () => {
     return (
         <section className="skill-area">
-            <div className="container  ">
+            <div className="container ">
                 <div className="text-center text-white ">
                     <h6 className="pt-5">Skill</h6>
-                    <h3>Why Choose Me</h3>
-                   
+                    <h3>Why Choose Me</h3>                   
                 </div>
                 <div>
                     <div className="row ">
@@ -38,7 +37,6 @@ const Skill = () => {
 
                     <div className="text-center pb-5 pt-5">
                         <Link to="/skill"> <button className="learn-more-btn" >Learn More</button> </Link>
-
                     </div>
                 </div>
             </div>

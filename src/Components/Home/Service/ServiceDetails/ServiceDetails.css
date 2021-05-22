@@ -1,6 +1,10 @@
-.servicer-header{
-    height: 80px;
+.servicer-header{    
     background-color: teal;
-    color: white;
-    text-align: center;
+    color: white;    
+}
+
+.service-img-size img{
+    height: 150px;
+    width:150px;
+    
 }

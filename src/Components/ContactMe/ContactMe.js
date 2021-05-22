@@ -9,13 +9,33 @@ const ContactMe = () => {
     return (
         <section>
 
-            <div className="contact-me-header mt-5 pt-4">
+            <div className="contact-me-header text-center mt-4 py-5">
                 <h3>Contact Me</h3>
             </div>
-            <div className="container pt-5 pb-5">
-                <div className="row">
-
-                    <div className="col-md-8">
+            <div className="container py-5">
+                <div className="row text-center">
+                    <div className="col-md-4 ">
+                    <div className="address-me p-3">
+                                <h3>Address</h3>
+                                <h5>Mirpur, Dhaka, Bangladesh</h5>
+                            </div>
+                    </div>
+                    <div className="col-md-4">
+                    <div className="address-me p-3">
+                                <h3>Phone</h3>
+                                <h5>+880 1629 22 60 69</h5>
+                            </div>
+                           
+                    </div>
+                    <div className="col-md-4">
+                    <div className="address-me p-3">
+                                <h3>Email</h3>
+                                <h5>md.rashidul371@gmail.com</h5>
+                            </div>
+                    </div>
+                </div>
+                <div className="row pt-5">
+                    <div className="col-lg-8 col-md-12">
                         <form onSubmit={handleSubmit(onSubmit)}>
                             <div class="form-group">
                                 <label for="exampleFormControlTextarea1">Name:*</label>
@@ -39,27 +59,9 @@ const ContactMe = () => {
                                 <label for="exampleFormControlTextarea1">Type your massage</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
-                            <input className="send-btn" type="submit" value="Send" />
+                            <input className="send-btn btn btn-lg btn-block" type="submit" value="Send" />
                         </form>
-
-                    </div>
-                    <div className="col-md-4">
-                        <div className="address-me">
-                            <div className="address-box">
-                                <h3>Address</h3>
-                                <h5>Mirpur, Dhaka, Bangladesh</h5>
-                            </div>
-                            <div className="address-box">
-                                <h3>Phone</h3>
-                                <h5>+880 1629 22 60 69</h5>
-                            </div>
-                            <div className="address-box">
-                                <h3>Email</h3>
-                                <h5>md.rashidul371@gmail.com</h5>
-                            </div>
-
-                        </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </section>

@@ -5,14 +5,11 @@ import RashidulImg from '../../../Images/rashiudl1.png';
 const About = () => {
     return (
         <section>
-            <div className="about-me mt-5">
-               
-                <h3 className="pt-4">About Me</h3>
-
+            <div className="about-me py-5 mt-4">               
+                <h3 className="text-center">About Me</h3>
             </div>
-            <div className="container pt-5 pb-5">
-
-                <div className="row pt-5">
+            <div className="container ">
+                <div className="row py-5">
                     <div className="col-md-8 pt-5">
                         <h2>Md Rashidul Islam</h2>
                         <h5 className="text-animation">Web Developer</h5>
