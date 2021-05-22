@@ -8,12 +8,12 @@
 }
 
 .send-btn{
-    background-color: rgb(221, 66, 66);  
+    background-color: green;  
     color: white;  
     
 }
 .send-btn:hover{
-    background-color: green;   
+    background-color: tomato;   
     color: white;   
     
 }
